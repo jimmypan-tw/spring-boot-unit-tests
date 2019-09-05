@@ -18,7 +18,5 @@ public class UserServiceTest {
     @Test
     public void testGetUser() {
         Assert.assertEquals(userService.getUser(), "Tom");
-        System.out.println("Test case passed...");
     }
 }
-
